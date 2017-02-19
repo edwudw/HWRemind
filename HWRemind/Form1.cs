@@ -17,6 +17,18 @@ namespace HWRemind
             InitializeComponent();
         }
 
-        
+        private void englishButton_Click(object sender, EventArgs e)
+        {
+            ListItems listForm = new ListItems();
+            DialogResult dr = listForm.ShowDialog();
+            if (dr == DialogResult.Yes)
+            {
+                englishButton.BackColor = Color.Lime;
+            }
+            else
+            {
+                englishButton.BackColor = Color.Red;
+            }
+        }
     }
 }

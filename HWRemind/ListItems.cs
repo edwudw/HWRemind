@@ -16,5 +16,10 @@ namespace HWRemind
         {
             InitializeComponent();
         }
+
+        private void redButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

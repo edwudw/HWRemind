@@ -37,7 +37,8 @@
             // 
             // englishButton
             // 
-            this.englishButton.BackColor = System.Drawing.Color.Red;
+            this.englishButton.BackColor = System.Drawing.Color.Lime;
+            this.englishButton.DialogResult = System.Windows.Forms.DialogResult.No;
             this.englishButton.ForeColor = System.Drawing.Color.Black;
             this.englishButton.Location = new System.Drawing.Point(13, 14);
             this.englishButton.Name = "englishButton";
@@ -45,6 +46,7 @@
             this.englishButton.TabIndex = 0;
             this.englishButton.Text = "English";
             this.englishButton.UseVisualStyleBackColor = false;
+            this.englishButton.Click += new System.EventHandler(this.englishButton_Click);
             // 
             // mathsButton
             // 
