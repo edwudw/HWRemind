@@ -8,3 +8,4 @@ d:\documents\visual studio 2015\Projects\HWRemind\HWRemind\obj\Debug\HWRemind.Pr
 d:\documents\visual studio 2015\Projects\HWRemind\HWRemind\obj\Debug\HWRemind.csproj.GenerateResource.Cache
 d:\documents\visual studio 2015\Projects\HWRemind\HWRemind\obj\Debug\HWRemind.exe
 d:\documents\visual studio 2015\Projects\HWRemind\HWRemind\obj\Debug\HWRemind.pdb
+d:\documents\visual studio 2015\Projects\HWRemind\HWRemind\bin\Debug\System.Data.SQLite.dll

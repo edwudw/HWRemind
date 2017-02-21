@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SQLite;
 
 namespace HWRemind
 {
@@ -19,6 +20,13 @@ namespace HWRemind
 
         private void englishButton_Click(object sender, EventArgs e)
         {
+            selectedLabel.Text = "English";
+            SQLiteConnection m_dbConnection;
+            m_dbConnection = new SQLiteConnection("Data Source=MyDatabase.sqlite;Version=3;");
+            m_dbConnection.Open();
+            string sql = "CREATE TABLE TODO (SUBJECT VARCHAR(10), INFO VARCHAR(300)";
+            SQLiteCommand command = new SQLiteCommand(sql, m_dbConnection);
+            command.ExecuteNonQuery();
             ListItems listForm = new ListItems();
             DialogResult dr = listForm.ShowDialog();
             if (dr == DialogResult.Yes)
@@ -29,6 +37,7 @@ namespace HWRemind
             {
                 englishButton.BackColor = Color.Red;
             }
+            
         }
     }
 }

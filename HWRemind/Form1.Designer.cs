@@ -33,6 +33,7 @@
             this.physButton = new System.Windows.Forms.Button();
             this.busButton = new System.Windows.Forms.Button();
             this.sddButton = new System.Windows.Forms.Button();
+            this.selectedLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // englishButton
@@ -88,11 +89,20 @@
             this.sddButton.Text = "SDD";
             this.sddButton.UseVisualStyleBackColor = false;
             // 
+            // selectedLabel
+            // 
+            this.selectedLabel.AutoSize = true;
+            this.selectedLabel.Location = new System.Drawing.Point(829, 413);
+            this.selectedLabel.Name = "selectedLabel";
+            this.selectedLabel.Size = new System.Drawing.Size(0, 13);
+            this.selectedLabel.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(876, 435);
+            this.Controls.Add(this.selectedLabel);
             this.Controls.Add(this.sddButton);
             this.Controls.Add(this.busButton);
             this.Controls.Add(this.physButton);
@@ -101,6 +111,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -111,6 +122,7 @@
         private System.Windows.Forms.Button physButton;
         private System.Windows.Forms.Button busButton;
         private System.Windows.Forms.Button sddButton;
+        private System.Windows.Forms.Label selectedLabel;
     }
 }
 

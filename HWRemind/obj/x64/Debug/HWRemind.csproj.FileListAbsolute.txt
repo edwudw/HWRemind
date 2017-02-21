@@ -1,0 +1,10 @@
+d:\documents\visual studio 2015\Projects\HWRemind\HWRemind\bin\x64\Debug\HWRemind.exe.config
+d:\documents\visual studio 2015\Projects\HWRemind\HWRemind\bin\x64\Debug\HWRemind.exe
+d:\documents\visual studio 2015\Projects\HWRemind\HWRemind\bin\x64\Debug\HWRemind.pdb
+d:\documents\visual studio 2015\Projects\HWRemind\HWRemind\bin\x64\Debug\System.Data.SQLite.dll
+d:\documents\visual studio 2015\Projects\HWRemind\HWRemind\obj\x64\Debug\HWRemind.Form1.resources
+d:\documents\visual studio 2015\Projects\HWRemind\HWRemind\obj\x64\Debug\HWRemind.ListItems.resources
+d:\documents\visual studio 2015\Projects\HWRemind\HWRemind\obj\x64\Debug\HWRemind.Properties.Resources.resources
+d:\documents\visual studio 2015\Projects\HWRemind\HWRemind\obj\x64\Debug\HWRemind.csproj.GenerateResource.Cache
+d:\documents\visual studio 2015\Projects\HWRemind\HWRemind\obj\x64\Debug\HWRemind.exe
+d:\documents\visual studio 2015\Projects\HWRemind\HWRemind\obj\x64\Debug\HWRemind.pdb
